@@ -1,13 +1,12 @@
-a = int(input("Число-1"))
-b = int(input("Число-2"))
-c = int(input("Число-3"))
-choice = int(input("Вибiр"))
+meters = float(input("Введіть кількість метрів: "))
+print("1. Конвертувати в милі\n2. Конвертувати в дюйми\n3. Конвертувати в ярди")
+choice = int(input("Ваш вибір: "))
 if choice == 1:
-    print(max(a,b,c))
+    print(meters *  0.000621371192)
 elif choice == 2:
-    print(min(a,b,c))
+    print(meters * 39.3700787)
 elif choice == 3:
-    print((a + b + c) / 3)
+    print(meters * 1.0936133)
 else:
     print("Невірний вибір")
 
