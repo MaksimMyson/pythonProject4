@@ -1,8 +1,10 @@
-x = int(input("Число"))
-if x % 7 == 0:
-    print("Number is a multiple of")
+x = int(input())
+y = int (input())
+if x > y :
+    print(x)
 else:
-    print("Number is not a multiple of")
+    print(y)
+
 
 
 
